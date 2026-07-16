@@ -24,7 +24,7 @@ const PRODUCTS = [
   { id: "sup-02", nama: "Holisticare Super Ester C", kemasan: "Per Strip Isi 4 Tablet", kategori: "suplemen", golongan: "ringan", harga: 48000, img: "img/Suplemen 2.jpg" },
   { id: "sup-03", nama: "Cal-95", kemasan: "1 Strip Isi 6 Tablet", kategori: "suplemen", golongan: "ringan", harga: 35000, img: "img/Suplemen 3.jpg" },
   { id: "sup-04", nama: "Ediva Young Kapsul Lunak", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 42000, img: "img/Suplemen4.png" },
-  { id: "sup-05", nama: "Konilife Omega 369 Soft Kapsul", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 38000, img: "img/Suplemen 5.png" },
+  { id: "sup-05", nama: "Konilife Omega 369 Soft Kapsul", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 38000, img: "img/suplemen 5.png" },
   { id: "sup-06", nama: "Prosentials", kemasan: "1 Strip Isi 6 Kapsul", kategori: "suplemen", golongan: "ringan", harga: 52000, img: "img/Suplemen6.jpg" },
   { id: "sup-07", nama: "CDR", kemasan: "Per Tablet", kategori: "suplemen", golongan: "ringan", harga: 3000, img: "img/Suplemen7.jpeg" },
   { id: "sup-08", nama: "Claritin 10mg Tablet 1 Dos", kemasan: "1 Dos", kategori: "suplemen", golongan: "ringan", harga: 45000, img: "img/Suplemen8.jpeg" },
