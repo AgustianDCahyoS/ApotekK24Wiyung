@@ -41,17 +41,17 @@ const PRODUCTS = [
   { id: "nut-05", nama: "Heavenly Blush Yoghurt Blackcurrant 200ml", kemasan: "200ml", kategori: "nutrisi", golongan: null, harga: 12000, img: "img/Nutrisi 5.png" },
   { id: "nut-06", nama: "Promina Puffs Blueberry 15g", kemasan: "15g", kategori: "nutrisi", golongan: null, harga: 8000, img: "img/Nutrisi6.png" },
   { id: "nut-07", nama: "Milna Biskuit Bayi 6-12bln Original 110g", kemasan: "110g", kategori: "nutrisi", golongan: null, harga: 18000, img: "img/Nutrisi 7.png" },
-  { id: "nut-08", nama: "Sirplus Sirup 100ml Rasa Melon", kemasan: "100ml", kategori: "nutrisi", golongan: null, harga: 22000, img: "img/Nutrisi8.png" },
+  { id: "nut-08", nama: "Sirplus Sirup 100ml Rasa Melon", kemasan: "100ml", kategori: "nutrisi", golongan: null, harga: 22000, img: "img/nutrisi8.png" },
 
   // ===== 4. HERBAL (8) =====
   { id: "her-01", nama: "Diapet NR Kapsul", kemasan: "Per Strip Isi 4 Kapsul", kategori: "herbal", golongan: "ringan", harga: 15000, img: "img/Herbal1.jpg" },
-  { id: "her-02", nama: "Tay Pin San Puyer Sakit Perut", kemasan: "Per Sachet", kategori: "herbal", golongan: null, harga: 5000, img: "img/Herbal2.jpeg" },
-  { id: "her-03", nama: "Minol Drop 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 12000, img: "img/Herbal3jpg.jpg" },
-  { id: "her-04", nama: "Tolak Angin Cair Plus Madu 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 10000, img: "img/Herbal4.jpg" },
-  { id: "her-05", nama: "Optimax Tablet", kemasan: "Per Tablet", kategori: "herbal", golongan: null, harga: 25000, img: "img/Herbal5.jpg" },
+  { id: "her-02", nama: "Tay Pin San Puyer Sakit Perut", kemasan: "Per Sachet", kategori: "herbal", golongan: null, harga: 5000, img: "img/herbal2.jpeg" },
+  { id: "her-03", nama: "Minol Drop 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 12000, img: "img/herbal3jpg.jpg" },
+  { id: "her-04", nama: "Tolak Angin Cair Plus Madu 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 10000, img: "img/herbal4.jpg" },
+  { id: "her-05", nama: "Optimax Tablet", kemasan: "Per Tablet", kategori: "herbal", golongan: null, harga: 25000, img: "img/herbal5.jpg" },
   { id: "her-06", nama: "GPU Minyak Urut Sereh 60ml", kemasan: "60ml", kategori: "herbal", golongan: null, harga: 18000, img: "img/Herbal6.jpg" },
-  { id: "her-07", nama: "Balsem Gosok Lang 20g", kemasan: "20g", kategori: "herbal", golongan: null, harga: 8000, img: "img/Herbal7.jpg" },
-  { id: "her-08", nama: "Yunnan Baiyao Aerosol 85g", kemasan: "85g", kategori: "herbal", golongan: null, harga: 55000, img: "img/Herbal8.png" },
+  { id: "her-07", nama: "Balsem Gosok Lang 20g", kemasan: "20g", kategori: "herbal", golongan: null, harga: 8000, img: "img/herbal7.jpg" },
+  { id: "her-08", nama: "Yunnan Baiyao Aerosol 85g", kemasan: "85g", kategori: "herbal", golongan: null, harga: 55000, img: "img/herbal8.png" },
 
   // ===== 5. BAYI (8) =====
   { id: "bay-01", nama: "Nutrilon 4 Royal Vanila 400g", kemasan: "400g", kategori: "bayi", golongan: null, harga: 185000, img: "img/bayi1.jpg" },
@@ -81,7 +81,7 @@ const PRODUCTS = [
   { id: "kec-05", nama: "Biolastin Cr 10g", kemasan: "10g", kategori: "kecantikan", golongan: "ringan", harga: 42000, img: "img/cantik5.jpg" },
   { id: "kec-06", nama: "Derma XP Glycore 10 Cr 10 Gram", kemasan: "10 Gram", kategori: "kecantikan", golongan: "ringan", harga: 55000, img: "img/cantik6.jpg" },
   { id: "kec-07", nama: "QV Skin Lot 250ml", kemasan: "250ml", kategori: "kecantikan", golongan: null, harga: 65000, img: "img/cantik7.png" },
-  { id: "kec-08", nama: "Acanthe Sunscreen Cr SPF 30 30g", kemasan: "30g", kategori: "kecantikan", golongan: null, harga: 48000, img: "img/cantik8.jpeg" },
+  { id: "kec-08", nama: "Acanthe Sunscreen Cr SPF 30 30g", kemasan: "30g", kategori: "kecantikan", golongan: null, harga: 48000, img: "img/cantik 8.jpg" },
 
   // ===== 8. MATA (8) =====
   { id: "mat-01", nama: "Alegysal 0.1% Eye Drop 5ml", kemasan: "5ml", kategori: "mata", golongan: "keras", harga: 45000, img: "img/mata1.png" },
