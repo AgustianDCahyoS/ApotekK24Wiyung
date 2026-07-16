@@ -30,7 +30,7 @@ const PRODUCTS = [
   { id: "sup-08", nama: "Claritin 10mg Tablet 1 Dos", kemasan: "1 Dos", kategori: "suplemen", golongan: "ringan", harga: 45000, img: "img/Suplemen8.jpeg" },
   { id: "sup-09", nama: "Rillus Tablet Chew", kemasan: "Per Tablet", kategori: "suplemen", golongan: "ringan", harga: 5000, img: "img/Suplemen9.jpg" },
   { id: "sup-10", nama: "Fucotrap 50mg Kapsul", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 40000, img: "img/Suplemen10.jpg" },
-  { id: "sup-11", nama: "Curcuma Plus Imuns 60ml", kemasan: "60ml", kategori: "suplemen", golongan: "ringan", harga: 28000, img: "img/Suplemen11.jpg" },
+  { id: "sup-11", nama: "Curcuma Plus Imuns 60ml", kemasan: "60ml", kategori: "suplemen", golongan: "ringan", harga: 28000, img: "img/suplemen11.jpg" },
   { id: "sup-12", nama: "Scotts Emulsion Orig 400ml", kemasan: "400ml", kategori: "suplemen", golongan: "ringan", harga: 75000, img: "img/Suplemen12jpg.jpg" },
 
   // ===== 3. NUTRISI (8) =====
