@@ -45,13 +45,13 @@ const PRODUCTS = [
 
   // ===== 4. HERBAL (8) =====
   { id: "her-01", nama: "Diapet NR Kapsul", kemasan: "Per Strip Isi 4 Kapsul", kategori: "herbal", golongan: "ringan", harga: 15000, img: "img/Herbal1.jpg" },
-  { id: "her-02", nama: "Tay Pin San Puyer Sakit Perut", kemasan: "Per Sachet", kategori: "herbal", golongan: null, harga: 5000, img: "img/Herbal2.jpeg" },
-  { id: "her-03", nama: "Minol Drop 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 12000, img: "img/Herbal3jpg.jpg" },
-  { id: "her-04", nama: "Tolak Angin Cair Plus Madu 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 10000, img: "img/Herbal4.jpg" },
-  { id: "her-05", nama: "Optimax Tablet", kemasan: "Per Tablet", kategori: "herbal", golongan: null, harga: 25000, img: "img/Herbal5.jpg" },
-  { id: "her-06", nama: "GPU Minyak Urut Sereh 60ml", kemasan: "60ml", kategori: "herbal", golongan: null, harga: 18000, img: "img/Herbal6.jpg" },
-  { id: "her-07", nama: "Balsem Gosok Lang 20g", kemasan: "20g", kategori: "herbal", golongan: null, harga: 8000, img: "img/Herbal7.jpg" },
-  { id: "her-08", nama: "Yunnan Baiyao Aerosol 85g", kemasan: "85g", kategori: "herbal", golongan: null, harga: 55000, img: "img/Herbal8.png" },
+  { id: "her-02", nama: "Tay Pin San Puyer Sakit Perut", kemasan: "Per Sachet", kategori: "herbal", golongan: null, harga: 5000, img: "img/herbal2.jpeg" },
+  { id: "her-03", nama: "Minol Drop 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 12000, img: "img/herbal3jpg.jpg" },
+  { id: "her-04", nama: "Tolak Angin Cair Plus Madu 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 10000, img: "img/herbal4.jpg" },
+  { id: "her-05", nama: "Optimax Tablet", kemasan: "Per Tablet", kategori: "herbal", golongan: null, harga: 25000, img: "img/herbal5.jpg" },
+  { id: "her-06", nama: "GPU Minyak Urut Sereh 60ml", kemasan: "60ml", kategori: "herbal", golongan: null, harga: 18000, img: "img/herbal6.jpg" },
+  { id: "her-07", nama: "Balsem Gosok Lang 20g", kemasan: "20g", kategori: "herbal", golongan: null, harga: 8000, img: "img/herbal7.jpg" },
+  { id: "her-08", nama: "Yunnan Baiyao Aerosol 85g", kemasan: "85g", kategori: "herbal", golongan: null, harga: 55000, img: "img/herbal8.png" },
 
   // ===== 5. BAYI (8) =====
   { id: "bay-01", nama: "Nutrilon 4 Royal Vanila 400g", kemasan: "400g", kategori: "bayi", golongan: null, harga: 185000, img: "img/bayi1.jpg" },
