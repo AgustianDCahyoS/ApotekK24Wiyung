@@ -20,18 +20,18 @@ const PRODUCTS = [
   { id: "obat-12", nama: "Degrium 5mg Tablet", kemasan: "Per Tablet", kategori: "obat", golongan: "keras", harga: 30000, img: "img/obat13.jpeg" },
 
   // ===== 2. SUPLEMEN (12) =====
-  { id: "sup-01", nama: "Citicoline Novell 500mg Kaplet", kemasan: "1 Strip Isi 10 Tablet", kategori: "suplemen", golongan: "ringan", harga: 55000, img: "img/suplemen 1.png" },
-  { id: "sup-02", nama: "Holisticare Super Ester C", kemasan: "Per Strip Isi 4 Tablet", kategori: "suplemen", golongan: "ringan", harga: 48000, img: "img/suplemen 2.jpg" },
-  { id: "sup-03", nama: "Cal-95", kemasan: "1 Strip Isi 6 Tablet", kategori: "suplemen", golongan: "ringan", harga: 35000, img: "img/suplemen 3.jpg" },
-  { id: "sup-04", nama: "Ediva Young Kapsul Lunak", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 42000, img: "img/suplemen4.png" },
+  { id: "sup-01", nama: "Citicoline Novell 500mg Kaplet", kemasan: "1 Strip Isi 10 Tablet", kategori: "suplemen", golongan: "ringan", harga: 55000, img: "img/Suplemen 1.png" },
+  { id: "sup-02", nama: "Holisticare Super Ester C", kemasan: "Per Strip Isi 4 Tablet", kategori: "suplemen", golongan: "ringan", harga: 48000, img: "img/Suplemen 2.jpg" },
+  { id: "sup-03", nama: "Cal-95", kemasan: "1 Strip Isi 6 Tablet", kategori: "suplemen", golongan: "ringan", harga: 35000, img: "img/Suplemen 3.jpg" },
+  { id: "sup-04", nama: "Ediva Young Kapsul Lunak", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 42000, img: "img/Suplemen4.png" },
   { id: "sup-05", nama: "Konilife Omega 369 Soft Kapsul", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 38000, img: "img/suplemen 5.png" },
-  { id: "sup-06", nama: "Prosentials", kemasan: "1 Strip Isi 6 Kapsul", kategori: "suplemen", golongan: "ringan", harga: 52000, img: "img/suplemen6.jpg" },
-  { id: "sup-07", nama: "CDR", kemasan: "Per Tablet", kategori: "suplemen", golongan: "ringan", harga: 3000, img: "img/suplemen7.jpeg" },
-  { id: "sup-08", nama: "Claritin 10mg Tablet 1 Dos", kemasan: "1 Dos", kategori: "suplemen", golongan: "ringan", harga: 45000, img: "img/suplemen8.jpeg" },
-  { id: "sup-09", nama: "Rillus Tablet Chew", kemasan: "Per Tablet", kategori: "suplemen", golongan: "ringan", harga: 5000, img: "img/suplemen9.jpg" },
-  { id: "sup-10", nama: "Fucotrap 50mg Kapsul", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 40000, img: "img/suplemen10.jpg" },
+  { id: "sup-06", nama: "Prosentials", kemasan: "1 Strip Isi 6 Kapsul", kategori: "suplemen", golongan: "ringan", harga: 52000, img: "img/Suplemen6.jpg" },
+  { id: "sup-07", nama: "CDR", kemasan: "Per Tablet", kategori: "suplemen", golongan: "ringan", harga: 3000, img: "img/Suplemen7.jpeg" },
+  { id: "sup-08", nama: "Claritin 10mg Tablet 1 Dos", kemasan: "1 Dos", kategori: "suplemen", golongan: "ringan", harga: 45000, img: "img/Suplemen8.jpeg" },
+  { id: "sup-09", nama: "Rillus Tablet Chew", kemasan: "Per Tablet", kategori: "suplemen", golongan: "ringan", harga: 5000, img: "img/Suplemen9.jpg" },
+  { id: "sup-10", nama: "Fucotrap 50mg Kapsul", kemasan: "Per Kapsul", kategori: "suplemen", golongan: "ringan", harga: 40000, img: "img/Suplemen10.jpg" },
   { id: "sup-11", nama: "Curcuma Plus Imuns 60ml", kemasan: "60ml", kategori: "suplemen", golongan: "ringan", harga: 28000, img: "img/suplemen11.jpg" },
-  { id: "sup-12", nama: "Scotts Emulsion Orig 400ml", kemasan: "400ml", kategori: "suplemen", golongan: "ringan", harga: 75000, img: "img/suplemen12jpg.jpg" },
+  { id: "sup-12", nama: "Scotts Emulsion Orig 400ml", kemasan: "400ml", kategori: "suplemen", golongan: "ringan", harga: 75000, img: "img/Suplemen12jpg.jpg" },
 
   // ===== 3. NUTRISI (8) =====
   { id: "nut-01", nama: "Madu TJ Murni 250g", kemasan: "250g", kategori: "nutrisi", golongan: null, harga: 45000, img: "img/Nutrisi.png" },
@@ -81,7 +81,7 @@ const PRODUCTS = [
   { id: "kec-05", nama: "Biolastin Cr 10g", kemasan: "10g", kategori: "kecantikan", golongan: "ringan", harga: 42000, img: "img/cantik5.jpg" },
   { id: "kec-06", nama: "Derma XP Glycore 10 Cr 10 Gram", kemasan: "10 Gram", kategori: "kecantikan", golongan: "ringan", harga: 55000, img: "img/cantik6.jpg" },
   { id: "kec-07", nama: "QV Skin Lot 250ml", kemasan: "250ml", kategori: "kecantikan", golongan: null, harga: 65000, img: "img/cantik7.png" },
-  { id: "kec-08", nama: "Acanthe Sunscreen Cr SPF 30 30g", kemasan: "30g", kategori: "kecantikan", golongan: null, harga: 48000, img: "img/cantik8.jpeg" },
+  { id: "kec-08", nama: "Acanthe Sunscreen Cr SPF 30 30g", kemasan: "30g", kategori: "kecantikan", golongan: null, harga: 48000, img: "img/cantik 8.jpg" },
 
   // ===== 8. MATA (8) =====
   { id: "mat-01", nama: "Alegysal 0.1% Eye Drop 5ml", kemasan: "5ml", kategori: "mata", golongan: "keras", harga: 45000, img: "img/mata1.png" },
@@ -107,27 +107,10 @@ function badgeGolonganHTML(golongan) {
   return '';
 }
 
-function isObatKeras(p) {
-  return p.golongan === 'keras';
-}
-
-function resepLink(p) {
-  return `kontak.html?resep=1&produk=${encodeURIComponent(p.nama)}&id=${encodeURIComponent(p.id)}`;
-}
-
 function productCardHTML(p) {
-  const keras = isObatKeras(p);
-  // Produk obat keras TIDAK diberi tombol tambah-keranjang (data-add-cart) sama sekali,
-  // melainkan link langsung ke form resep di halaman kontak.
-  const actionButtonHTML = keras
-    ? `<a href="${resepLink(p)}" class="btn-cart btn-resep" style="background:#c0392b;border-color:#c0392b;text-decoration:none;display:inline-flex;align-items:center;gap:6px;justify-content:center">
-         <i class="bi bi-file-earmark-medical-fill"></i> Perlu Resep
-       </a>`
-    : `<button class="btn-cart" data-add-cart><i class="bi bi-cart-plus"></i> Beli</button>`;
-
   return `
     <div class="col-6 col-md-4 col-lg-3 product-item" data-category="${p.kategori}" data-name="${p.nama}">
-      <div class="product-card" data-product data-product-id="${p.id}" data-product-name="${p.nama}" data-product-price="${p.harga}" data-product-img="${p.img}" data-product-unit="${p.kemasan}" data-product-golongan="${p.golongan || ''}">
+      <div class="product-card" data-product data-product-id="${p.id}" data-product-name="${p.nama}" data-product-price="${p.harga}" data-product-img="${p.img}" data-product-unit="${p.kemasan}">
         <div class="product-img-wrap">
           ${badgeGolonganHTML(p.golongan)}
           <img src="${p.img}" alt="${p.nama}" loading="lazy">
@@ -138,7 +121,7 @@ function productCardHTML(p) {
           <div class="product-price">Rp ${formatRupiah(p.harga)}</div>
           <div class="product-price-sub">/ ${p.kemasan}</div>
           <div class="product-actions">
-            ${actionButtonHTML}
+            <button class="btn-cart" data-add-cart><i class="bi bi-cart-plus"></i> Beli</button>
             <a href="produk-detail.html?id=${p.id}" class="btn-detail"><i class="bi bi-info-circle"></i></a>
           </div>
         </div>
@@ -195,19 +178,5 @@ function renderProductDetail() {
     dataEl.dataset.productPrice = p.harga;
     dataEl.dataset.productUnit = p.kemasan;
     dataEl.dataset.productImg = p.img;
-    dataEl.dataset.productGolongan = p.golongan || '';
-  }
-
-  // Untuk obat keras: sembunyikan tombol Tambah ke Keranjang & Beli Sekarang,
-  // tampilkan tombol Ajukan Resep yang mengarah ke form resep di halaman kontak.
-  const keras = isObatKeras(p);
-  const addBtn = document.getElementById('addToCartBtn');
-  const buyBtn = document.getElementById('buyNowBtn');
-  const resepBtn = document.getElementById('resepBtn');
-  if (addBtn) addBtn.style.display = keras ? 'none' : '';
-  if (buyBtn) buyBtn.style.display = keras ? 'none' : '';
-  if (resepBtn) {
-    resepBtn.style.display = keras ? '' : 'none';
-    resepBtn.href = resepLink(p);
   }
 }
