@@ -41,7 +41,7 @@ const PRODUCTS = [
   { id: "nut-05", nama: "Heavenly Blush Yoghurt Blackcurrant 200ml", kemasan: "200ml", kategori: "nutrisi", golongan: null, harga: 12000, img: "img/Nutrisi 5.png" },
   { id: "nut-06", nama: "Promina Puffs Blueberry 15g", kemasan: "15g", kategori: "nutrisi", golongan: null, harga: 8000, img: "img/Nutrisi6.png" },
   { id: "nut-07", nama: "Milna Biskuit Bayi 6-12bln Original 110g", kemasan: "110g", kategori: "nutrisi", golongan: null, harga: 18000, img: "img/Nutrisi 7.png" },
-  { id: "nut-08", nama: "Sirplus Sirup 100ml Rasa Melon", kemasan: "100ml", kategori: "nutrisi", golongan: null, harga: 22000, img: "img/Nutrisi8.png" },
+  { id: "nut-08", nama: "Sirplus Sirup 100ml Rasa Melon", kemasan: "100ml", kategori: "nutrisi", golongan: null, harga: 22000, img: "img/nutrisi8.png" },
 
   // ===== 4. HERBAL (8) =====
   { id: "her-01", nama: "Diapet NR Kapsul", kemasan: "Per Strip Isi 4 Kapsul", kategori: "herbal", golongan: "ringan", harga: 15000, img: "img/Herbal1.jpg" },
@@ -49,7 +49,7 @@ const PRODUCTS = [
   { id: "her-03", nama: "Minol Drop 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 12000, img: "img/herbal3jpg.jpg" },
   { id: "her-04", nama: "Tolak Angin Cair Plus Madu 15ml", kemasan: "15ml", kategori: "herbal", golongan: null, harga: 10000, img: "img/herbal4.jpg" },
   { id: "her-05", nama: "Optimax Tablet", kemasan: "Per Tablet", kategori: "herbal", golongan: null, harga: 25000, img: "img/herbal5.jpg" },
-  { id: "her-06", nama: "GPU Minyak Urut Sereh 60ml", kemasan: "60ml", kategori: "herbal", golongan: null, harga: 18000, img: "img/herbal6.jpg" },
+  { id: "her-06", nama: "GPU Minyak Urut Sereh 60ml", kemasan: "60ml", kategori: "herbal", golongan: null, harga: 18000, img: "img/Herbal6.jpg" },
   { id: "her-07", nama: "Balsem Gosok Lang 20g", kemasan: "20g", kategori: "herbal", golongan: null, harga: 8000, img: "img/herbal7.jpg" },
   { id: "her-08", nama: "Yunnan Baiyao Aerosol 85g", kemasan: "85g", kategori: "herbal", golongan: null, harga: 55000, img: "img/herbal8.png" },
 
