@@ -107,10 +107,27 @@ function badgeGolonganHTML(golongan) {
   return '';
 }
 
+function isObatKeras(p) {
+  return p.golongan === 'keras';
+}
+
+function resepLink(p) {
+  return `kontak.html?resep=1&produk=${encodeURIComponent(p.nama)}&id=${encodeURIComponent(p.id)}`;
+}
+
 function productCardHTML(p) {
+  const keras = isObatKeras(p);
+  // Produk obat keras TIDAK diberi tombol tambah-keranjang (data-add-cart) sama sekali,
+  // melainkan link langsung ke form resep di halaman kontak.
+  const actionButtonHTML = keras
+    ? `<a href="${resepLink(p)}" class="btn-cart btn-resep" style="background:#c0392b;border-color:#c0392b;text-decoration:none;display:inline-flex;align-items:center;gap:6px;justify-content:center">
+         <i class="bi bi-file-earmark-medical-fill"></i> Perlu Resep
+       </a>`
+    : `<button class="btn-cart" data-add-cart><i class="bi bi-cart-plus"></i> Beli</button>`;
+
   return `
     <div class="col-6 col-md-4 col-lg-3 product-item" data-category="${p.kategori}" data-name="${p.nama}">
-      <div class="product-card" data-product data-product-id="${p.id}" data-product-name="${p.nama}" data-product-price="${p.harga}" data-product-img="${p.img}" data-product-unit="${p.kemasan}">
+      <div class="product-card" data-product data-product-id="${p.id}" data-product-name="${p.nama}" data-product-price="${p.harga}" data-product-img="${p.img}" data-product-unit="${p.kemasan}" data-product-golongan="${p.golongan || ''}">
         <div class="product-img-wrap">
           ${badgeGolonganHTML(p.golongan)}
           <img src="${p.img}" alt="${p.nama}" loading="lazy">
@@ -121,7 +138,7 @@ function productCardHTML(p) {
           <div class="product-price">Rp ${formatRupiah(p.harga)}</div>
           <div class="product-price-sub">/ ${p.kemasan}</div>
           <div class="product-actions">
-            <button class="btn-cart" data-add-cart><i class="bi bi-cart-plus"></i> Beli</button>
+            ${actionButtonHTML}
             <a href="produk-detail.html?id=${p.id}" class="btn-detail"><i class="bi bi-info-circle"></i></a>
           </div>
         </div>
@@ -178,5 +195,19 @@ function renderProductDetail() {
     dataEl.dataset.productPrice = p.harga;
     dataEl.dataset.productUnit = p.kemasan;
     dataEl.dataset.productImg = p.img;
+    dataEl.dataset.productGolongan = p.golongan || '';
+  }
+
+  // Untuk obat keras: sembunyikan tombol Tambah ke Keranjang & Beli Sekarang,
+  // tampilkan tombol Ajukan Resep yang mengarah ke form resep di halaman kontak.
+  const keras = isObatKeras(p);
+  const addBtn = document.getElementById('addToCartBtn');
+  const buyBtn = document.getElementById('buyNowBtn');
+  const resepBtn = document.getElementById('resepBtn');
+  if (addBtn) addBtn.style.display = keras ? 'none' : '';
+  if (buyBtn) buyBtn.style.display = keras ? 'none' : '';
+  if (resepBtn) {
+    resepBtn.style.display = keras ? '' : 'none';
+    resepBtn.href = resepLink(p);
   }
 }
